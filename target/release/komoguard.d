@@ -1,0 +1,1 @@
+/home/komo/KomoGuard/target/release/komoguard: /home/komo/KomoGuard/src/alerts.rs /home/komo/KomoGuard/src/config.rs /home/komo/KomoGuard/src/main.rs /home/komo/KomoGuard/src/network.rs /home/komo/KomoGuard/src/processes.rs /home/komo/KomoGuard/src/resources.rs /home/komo/KomoGuard/src/watcher.rs

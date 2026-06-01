@@ -1,0 +1,21 @@
+{
+  "check_interval_seconds": 30,
+  "cpu_threshold_percent": 90,
+  "memory_threshold_percent": 90,
+  "disk_threshold_percent": 10,
+  "notify_desktop": false,
+  "suspicious_names": [
+    "xmrig", "ccminer", "ethminer", "lolMiner", "t-rex", "minerd",
+    "cryptonight", "stratum", "msfconsole", "mimikatz", "cobaltstrike",
+    "empire", "beef-xss", "shellter", "veil", "nc", "ncat",
+    "meterpreter", "bypassuac", "psexec", "wmiexec", "smbexec",
+    "hashcat", "john", "hydra", "medusa", "sqlmap", "nikto",
+    "gobuster", "dirb", "ettercap", "bettercap",
+    "ransomware", "lockbit", "blackcat",
+    "redline", "vidar"
+  ],
+  "suspicious_dirs": ["/tmp", "/dev/shm", "/var/tmp", "/run", "/var/run"],
+  "high_risk_ports": [
+    4444, 1337, 31337, 5555, 6667, 6666, 8443, 2222, 1080, 9050, 10000
+  ]
+}

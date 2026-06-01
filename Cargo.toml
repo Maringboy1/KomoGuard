@@ -1,0 +1,18 @@
+[package]
+name = "komoguard"
+version = "1.0.0"
+edition = "2021"
+description = "KomoGuard - Real-time system security monitor for Kali Linux"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+ctrlc = "3"
+libc = "0.2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
